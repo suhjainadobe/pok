@@ -1,4 +1,31 @@
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<script src="/scripts/aem.js" type="module"></script>
-<script src="/scripts/scripts.js" type="module"></script>
-<link rel="stylesheet" href="/styles/styles.css"/>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta name='viewport' content='initial-scale = 1, minimum-scale = 1, maximum-scale = 1'/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="x-ua-compatible" content="IE=10">
+    <title>POK-V2</title>
+    
+    <!-- Styles -->
+    <style type="text/css">
+        #initialLoading {
+            background: url(assets/htmlimages/loader.gif) no-repeat center center;
+            background-color: #ffffff;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 10010;
+        }
+    </style>
+
+    <!-- Scripts -->
+    <script src="assets/js/init.js" defer></script>
+</head>
+<body onload="onBodyLoad()">
+    <div id='initialLoading'></div>
+    <noscript style="text-align:center;font-size:24px;">Enable Javascript support in the browser.</noscript>
+</body>
+</html> 
